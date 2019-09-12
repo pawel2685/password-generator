@@ -3,8 +3,11 @@ package sample;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
+import javafx.scene.control.TextField;
+import javafx.scene.control.Tooltip;
 import javafx.scene.input.MouseEvent;
 
+import javax.tools.Tool;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -13,7 +16,6 @@ public class Controller implements Initializable {
     public javafx.scene.control.TextField numberOfChars;
     public javafx.scene.control.TextField passwordOutput;
     public javafx.scene.control.Button generate;
-
 
     @FXML
     private void AlertOne() {
@@ -35,9 +37,11 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
-
+        Tooltip tooltip = new Tooltip();
+        tooltip.setText("Your password must contain\n between 5 and 25 characters\n");
+        numberOfChars.setTooltip(tooltip);
     }
+
     public void generateRandomPassword () {
 
         String charArray[] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "W", "X", "Y", "Z"
@@ -63,8 +67,6 @@ public class Controller implements Initializable {
         } else {
             generateRandomPassword();
         }
-
     }
-
 }
 
