@@ -18,8 +18,8 @@ public class Controller implements Initializable {
     @FXML
     private void AlertOne() {
         Alert a1 = new Alert(Alert.AlertType.WARNING);
-        a1.setTitle("Ostrzeżenie");
-        a1.setContentText("Podana liczba musi być większa niż 5 znaków!");
+        a1.setTitle("Warning!");
+        a1.setContentText("Number of characters must be grater than 5!");
         a1.setHeaderText(null);
         a1.showAndWait();
     }
@@ -27,8 +27,8 @@ public class Controller implements Initializable {
     @FXML
     private void AlertTwo() {
         Alert a2 = new Alert(Alert.AlertType.WARNING);
-        a2.setTitle("Ostrzeżenie");
-        a2.setContentText("Podana liczba musi być mniejsza niż 25 znaków!");
+        a2.setTitle("Warning");
+        a2.setContentText("Number of characters must be less than 25");
         a2.setHeaderText(null);
         a2.showAndWait();
     }

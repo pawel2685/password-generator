@@ -21,7 +21,7 @@
                <Font name="Arial Bold" size="20.0" />
             </font>
          </Label>
-         <TextField fx:id="numberOfChars" alignment="CENTER" layoutX="293.0" layoutY="116.0" prefHeight="38.0" prefWidth="56.0">
+         <TextField fx:id="numberOfChars" alignment="CENTER" layoutX="314.0" layoutY="117.0" prefHeight="38.0" prefWidth="56.0">
                <font>
                   <Font size="20.0" />
                </font></TextField>
@@ -39,7 +39,7 @@
                <font>
                   <Font name="Arial Bold" size="20.0" />
                </font></TextField>
-            <Label layoutX="254.0" layoutY="298.0" text="Twoje hasło :">
+            <Label layoutX="254.0" layoutY="298.0" text="Password Output :">
                <font>
                   <Font name="System Bold Italic" size="16.0" />
                </font>
