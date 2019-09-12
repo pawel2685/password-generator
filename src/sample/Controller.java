@@ -28,7 +28,7 @@ public class Controller implements Initializable {
     private void AlertTwo() {
         Alert a2 = new Alert(Alert.AlertType.WARNING);
         a2.setTitle("Warning");
-        a2.setContentText("Number of characters must be less than 25");
+        a2.setContentText("Number of characters must be less than 25!");
         a2.setHeaderText(null);
         a2.showAndWait();
     }
