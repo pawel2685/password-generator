@@ -16,7 +16,7 @@
                <Font name="System Italic" size="26.0" />
             </font>
          </Label>
-         <Label layoutX="80.0" layoutY="127.0" text="Number of Characters;" textAlignment="CENTER">
+         <Label layoutX="80.0" layoutY="127.0" text="Number of Characters:  " textAlignment="CENTER">
             <font>
                <Font name="Arial Bold" size="20.0" />
             </font>
